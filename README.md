@@ -1,10 +1,12 @@
 <p style="text-align: center">
-  <img style="width: 900px" src="Nuxtwind Daisy Banner.jpg"/>
+  <img style="width: 900px" src="Edening Office Banner.png"/>
 </p>
 
-<h1 align="center">Nuxtwind Daisy 🟢💨🌼</h1>
+<h1 align="center">Edening Office 💨</h1>
 <p style="text-align: center">
-Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.
+  Hopefully,<br>
+  this little exploration can become the very first step to a thousand miles journey,<br>
+  for a more creative and location-free working world!.
 </p>
 
 - [Showcase](#showcase)
@@ -12,25 +14,21 @@ Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI wit
 
 # Showcase
 
-Brag your modified version from this template. 💪
-
-- [jofftiquez.dev](https://jofftiquez.dev) 
+- [https://office.edening.org](https://office.edening.org) 
 
 # Getting Started Guide
 
+## Setting Up [Supabase](https://supabase.com/)
+
+## Setting Up [RTCMultiConnection-Server](https://github.com/Edening/RTCMultiConnection-Server), which is optional(Defaults to https://muazkhan.com:9001/).
+
 ## Installation
 
-Nope. No installation needed.
+<code>yarn install</code>
 
 ## Fork
 
 Fork this repository to your own GitHub account.
-
-<img width="800" src="fork.png">
-
-Make it yours. Rename it. Change the description. Hit Create fork.
-
-<img width="800" src="make-it-yours.png">
 
 ## Make changes
 

@@ -3,26 +3,26 @@
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
       <div class="max-w-xl">
-        <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Nuxtwind Daisy</h1>
-        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Nuxtwind Daisy is a starter template project for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.</p>
+        <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Edening Office</h1>
+        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Achieving the fragile balance between creativity and freedom...</p>
         <div class="flex justify-center space-x-5">
           <a
             data-aos="fade-down"
             data-aos-delay="600"
             class="btn btn-sm md:btn-md btn-primary"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy/fork"
+            href="/org"
             target="_blank"
           >
-            Fork this Project
+            Good to Go
           </a>
           <a
             data-aos="fade-down"
             data-aos-delay="600"
             class="btn btn-sm md:btn-md btn-primary btn-outline"
-            href="https://github.com/OSSPhilippines/nuxtwind-daisy"
+            href="/org/Edening/Edening-HQ"
             target="_blank"
           >
-            Give us a star in GitHub
+            Give a Visit
           </a>
         </div>
       </div>
@@ -32,253 +32,114 @@
   <generic-panel>
     <div class="flex flex-col">
       <h1 class="text-3xl md:text-5xl mb-5">Introduction</h1>
-      <p class="md:text-lg">Create beautiful and fast websites without worrying about the tedious setup. Just fork this repository and start hacking away!</p>
+      <p class="md:text-lg">
+        Hopefully,<br>
+        this little exploration can become the very first step to a thousand miles journey,<br>
+        for a more creative and location-free working world!
+      </p>
     </div>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-3xl md:text-5xl mb-5">Getting Started</h1>
-      <p class="md:text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme" class="text-primary">the documentation</a> on how to start quickly.</p>
+      <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+        <li>
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-start md:text-end mb-10">
+            <div class="text-lg font-black">Signup</div>
+            <img src="/images/signup.png" alt="Signup" />
+            Please signup so that you are good to go.
+          </div>
+          <hr/>
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-end mb-10">
+            <div class="text-lg font-black">Good to Go</div>
+            <img src="/images/go.png" alt="Go" />
+            Click the "Good to Go" button and ...
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-start md:text-end mb-10">
+            <div class="text-lg font-black">Search for owning your organization</div>
+            <img src="/images/searchOrg.png" alt="SearchOrg" />
+            <img src="/images/own.png" alt="Own" />
+            <img src="/images/ownDetail.png" alt="OwnDetail" />
+            With your organization in mind, you can own it by searching until no existing organizations are shown which means the name is available for you.
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-end mb-10">
+            <div class="text-lg font-black">Create some spaces</div>
+            <img src="/images/createSpaces.png" alt="CreateSpaces" />
+            After owning your precious organization, you would be able to start creating spaces for your teams.
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-start md:text-end mb-10">
+            <div class="text-lg font-black">Decorate your spaces</div>
+            <img src="/images/decorate.png" alt="Decorate" />
+            And then, you probably would like to make decorations upon the empty spaces. As the time of being, there are cubes, entrances, and receptions you can make use of. The person icon means that you can click it for assigning owner, and the connectivity icon indicates that you can connect with other space via the entrance.
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+          </div>
+          <div class="timeline-end mb-10">
+            <div class="text-lg font-black">Give a Visit</div>
+            <img src="/images/visit.png" alt="Visit" />
+            Optionally, you can also choose to give a visit to our Edening organization to see what is possible, and you may ocassionally come across the builders of this app.
+          </div>
+          <hr />
+        </li>
+      </ul>
     </div>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-3xl md:text-5xl mb-5">Features</h1>
-      <p class="md:text-lg">See what you can do below. Basically, every basic thing that you need is already included in this starter template project. From custom font, icons, animations, and more.</p>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col mb-5">
-      <h1 class="text-xl md:text-3xl mb-5">Icons by Line Awesome <i class="las la-icons text-primary"></i></h1>
-      <p class="md:text-lg">Get more icons from the <a class="text-primary" href="https://icons8.com/line-awesome" target="_blank">Line Awesome documentation</a>.</p>
-    </div>
-    <div class="flex space-x-5 overflow-scroll">
-      <i class="las la-cat text-4xl"></i>
-      <i class="las la-crow text-4xl"></i>
-      <i class="las la-dog text-4xl"></i>
-      <i class="las la-dove text-4xl"></i>
-      <i class="las la-horse text-4xl"></i>
-      <i class="las la-spider text-4xl"></i>
-      <i class="las la-kiwi-bird text-4xl"></i>
-      <i class="las la-beer text-4xl"></i>
-      <i class="las la-glass-whiskey text-4xl"></i>
-      <i class="las la-home text-4xl"></i>
-      <i class="las la-birthday-cake text-4xl"></i>
-      <a class="hidden md:inline text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
-    </div>
-    <a class="inline md:hidden text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col mb-5">
-      <h1 class="text-xl md:text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
-      <p class="md:text-lg">Check <a class="text-primary" href="https://michalsnik.github.io/aos/" target="_blank">AOS.js documentation</a> for more animations.</p>
-    </div>
-    <div class="flex flex-col">
-      <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
-        <div data-aos="fade-down" data-aos-delay="500" class="w-full md:w-[200px] h-[200px] bg-green-200"></div>
-        <div data-aos="flip-left" data-aos-delay="1000" class="w-full md:w-[200px] h-[200px] bg-red-200"></div>
-        <div data-aos="zoom-in" data-aos-delay="1500" class="w-full md:w-[200px] h-[200px] bg-blue-200"></div>
-        <a class="text-lg mt-1 text-primary" href="https://michalsnik.github.io/aos/" target="_blank">more animations...</a>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col mb-5">
-      <h1 class="text-xl md:text-3xl mb-5">UI Components by Daisy UI 🌼 version 3</h1>
-      <p class="md:text-lg">Learn more from the official <a class="text-primary" href="https://daisyui.com/" target="_blank">daisyUI documentation</a>.</p>
-    </div>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Buttons</h1>
-      <div class="flex space-x-5 overflow-scroll">
-        <button class="btn">Button</button>
-        <button class="btn btn-primary">Button</button>
-        <button class="btn btn-secondary">Button</button>
-        <button class="btn btn-accent">Button</button>
-        <button class="btn btn-ghost">Button</button>
-        <button class="btn btn-link">Button</button>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Alerts</h1>
-      <div class="space-y-5">
-        <div class="alert shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <span>12 unread messages. Tap to see.</span>
-          </div>
-        </div>
-
-        <div class="alert alert-info shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <span>New software update available.</span>
-          </div>
-        </div>
-
-        <div class="alert alert-success shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-            <span>Your purchase has been confirmed!</span>
-          </div>
-        </div>
-
-        <div class="alert alert-warning shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
-            <span>Warning: Invalid email address!</span>
-          </div>
-        </div>
-
-        <div class="alert alert-error shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-            <span>Error! Task failed successfully.</span>
-          </div>
-        </div>
-
-        <div class="alert shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <span>we use cookies for no reason.</span>
-          </div>
-          <div class="flex-none">
-            <button class="btn btn-sm btn-ghost">Deny</button>
-            <button class="btn btn-sm btn-primary">Accept</button>
-          </div>
-        </div>
-
-        <div class="alert shadow-lg">
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-            <div>
-              <h3 class="font-bold">New message!</h3>
-              <div class="text-xs">You have 1 unread message</div>
-            </div>
-          </div>
-          <div class="flex-none">
-            <button class="btn btn-sm">See</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Badges</h1>
-      <div class="flex space-x-5 overflow-scroll">
-        <div class="badge badge-info gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-          info
-        </div>
-        <div class="badge badge-success gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-          success
-        </div>
-        <div class="badge badge-warning gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-          warning
-        </div>
-        <div class="badge badge-error gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-          error
-        </div>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Chat Bubbles</h1>
-      <div class="flex flex-col">
-        <div class="chat chat-start">
-          <div class="chat-bubble chat-bubble-primary">What kind of nonsense is this</div>
-        </div>
-        <div class="chat chat-start">
-          <div class="chat-bubble chat-bubble-secondary">Put me on the Council and not make me a Master!??</div>
-        </div>
-        <div class="chat chat-start">
-          <div class="chat-bubble chat-bubble-accent">That's never been done in the history of the Jedi. It's insulting!</div>
-        </div>
-        <div class="chat chat-end">
-          <div class="chat-bubble chat-bubble-info">Calm down, Anakin.</div>
-        </div>
-        <div class="chat chat-end">
-          <div class="chat-bubble chat-bubble-success">You have been given a great honor.</div>
-        </div>
-        <div class="chat chat-end">
-          <div class="chat-bubble chat-bubble-warning">To be on the Council at your age.</div>
-        </div>
-        <div class="chat chat-end">
-          <div class="chat-bubble chat-bubble-error">It's never happened before.</div>
-        </div>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Checkboxes</h1>
-      <div class="flex flex-col">
-        <div class="form-control w-52">
-          <label class="cursor-pointer label">
-            <span class="label-text">Remember me</span>
-            <input type="checkbox" class="toggle toggle-primary" checked />
-          </label>
-        </div>
-        <div class="form-control w-52">
-          <label class="cursor-pointer label">
-            <span class="label-text">Remember me</span>
-            <input type="checkbox" class="toggle toggle-secondary" checked />
-          </label>
-        </div>
-        <div class="form-control w-52">
-          <label class="cursor-pointer label">
-            <span class="label-text">Remember me</span>
-            <input type="checkbox" class="toggle toggle-accent" checked />
-          </label>
-        </div>
-      </div>
-    </div>
-  </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">Footers</h1>
       <footer class="footer p-10 bg-base-200 text-base-content">
         <div>
           <span class="footer-title">Services</span>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+          <a href="/org/Edening/Edening-HQ" target="_blank" class="link link-hover">Edening Global Village</a>
         </div>
         <div>
-          <span class="footer-title">Company</span>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
+          <span class="footer-title">Organization</span>
+          <a href="/org/Edening/Edening-HQ" target="_blank" class="link link-hover">Edening Global Village</a>
         </div>
         <div>
-          <span class="footer-title">Legal</span>
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
+          <span class="footer-title">Contact</span>
+          <a href="mailto:henryma@edening.cn" class="link link-hover">Henry Ma</a>
         </div>
       </footer>
       <footer class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <div class="items-center grid-flow-col">
-          <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" class="fill-current"><path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path></svg>
-          <p>ACME Industries Ltd. <br/>Providing reliable tech since 1992</p>
+          <img src="/favicon.png" style="width: 24px; height: 24px;"/>
+          <p>Edening Global Village</p>
         </div>
         <div class="md:place-self-center md:justify-self-end">
           <div class="grid grid-flow-col gap-4">
@@ -290,21 +151,11 @@
       </footer>
     </div>
   </generic-panel>
-
-  <generic-panel>
-    <div class="flex flex-col">
-      <h1 class="md:text-xl mb-5 font-bold">And more components...</h1>
-      <p>Visit the official <a href="https://daisyui.com/docs/install/" target="_blank" class="text-primary">Daisy UI documentation</a>.</p>
-    </div>
-  </generic-panel>
-
 </template>
 
 <script>
-import { useHead } from '#app';
 import { definePageMeta } from '#imports';
 import GenericPanel from '~/components/commons/GenericPanel';
-import ogBanner from '../assets/images/nuxtwind-daisy-og-banner.jpg';
 
 export default {
   components: {
@@ -313,22 +164,6 @@ export default {
   setup () {
     definePageMeta({
       layout: 'default',
-    });
-
-    useHead({
-      title: 'Nuxtwind Daisy 🟢💨🌼',
-      description: 'Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.',
-      link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      ],
-      meta: [
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          property: 'og:image',
-          content: ogBanner,
-        },
-      ],
     });
 
     return {};

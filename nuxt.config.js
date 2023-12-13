@@ -6,12 +6,28 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // eslint-disable-next-line no-undef
 export default defineNuxtConfig({
+  // vite: {
+  //   resolve: {
+  //     dedupe: ['vue']
+  //   }
+  // },
+
+  supabase: {
+    redirectOptions: {
+      exclude: ['/', '/org', '/org/*', '/update-password', '/pricing'],
+    }
+  },
+
+  css: ['animate.css/animate.min.css'],
+
   preset: 'node-server',
 
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     'nuxt-gtag',
+    '@nuxtjs/supabase',
+    '@varlet/nuxt',
   ],
 
   gtag: {
@@ -36,11 +52,14 @@ export default defineNuxtConfig({
 
   app: {
     head: {
+      title: 'Edening Office 💨',
+      description: 'Achieving the fragile balance between creativity and freedom...',
       link: [
         {
           rel: 'stylesheet',
           href: 'https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css',
         },
+        {rel: 'icon', type: "image/png", href: '/favicon.png'},
       ],
     },
   },

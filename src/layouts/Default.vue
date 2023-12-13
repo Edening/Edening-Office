@@ -2,22 +2,25 @@
   <div :data-theme="theme">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
-        <a class="btn btn-ghost md:text-xl">Nuxtwind Daisy</a>
+        <a class="btn btn-ghost md:text-xl" href="/">Office@Edening</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
+        <a href="/pricing">Pricing(Sample)</a>
       </div>
       <div class="navbar-end">
-        <select v-model="theme" class="select select-primary md:w-full md:max-w-xs">
+        <!-- <select v-model="theme" class="select select-primary md:w-full md:max-w-xs">
           <option disabled selected>Select Theme</option>
           <option v-for="theme in themes" :value="theme" :key="theme">
             <span class="uppercase">{{ theme }}</span>
           </option>
-        </select>
+        </select> -->
+        <a v-if="!user" href="/login" class="btn btn-ghost md:text-xl">SignIn</a>
+        <a v-else @click="signOut" class="btn btn-ghost md:text-xl">SignOut</a>
       </div>
     </div>
     <slot />
-    <footer class="footer footer-center p-10 bg-base-50">
+    <!-- <footer class="footer footer-center p-10 bg-base-50">
       <div>
         <h1 class="text-2xl md:text-3xl font-bold">Nuxtwind Daisy</h1>
         <p class="md:font-bold">
@@ -38,7 +41,7 @@
           </a>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -75,18 +78,40 @@ const THEMES = [
   'coffee',
   'winter',
 ];
+
 export default {
   setup () {
+
+    const supabase = useSupabaseClient()
+
+    const router = useRouter()
+
+    const signOut = async () => {
+      const { error } = await supabase.auth.signOut()
+      if(error) {
+        console.log(error)
+      } else {
+        user.value = null
+        router.push('/')
+      }
+    }
+
     const theme = ref(null);
+    // const user = ref(null);
+
+    const user = useSupabaseUser()
+
     watch(theme, (value) => {
       localStorage.setItem('daisyui-theme', value);
     });
-    onMounted(() => {
-      theme.value = localStorage.getItem('daisyui-theme') || 'dark';
+    onMounted(async () => {
+      theme.value = localStorage.getItem('daisyui-theme') || 'cupcake';
     });
     return {
       theme,
       themes: THEMES,
+      user,
+      signOut,
     };
   },
 };
