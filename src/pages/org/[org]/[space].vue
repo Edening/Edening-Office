@@ -587,9 +587,8 @@ onMounted(() => {
   connection = new RTCMultiConnection();
 
   // this line is VERY_important
-  // connection.socketURL = 'https://muazkhan.com:9001/';
-  connection.socketURL = 'http://localhost:9001/'
-  // connection.socketURL = 'https://localhost:9001/'
+  connection.socketURL = 'https://muazkhan.com:9001/';
+  // connection.socketURL = 'http://localhost:9001/'
 
   // all below lines are optional; however recommended.
 
