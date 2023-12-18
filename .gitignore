@@ -4,6 +4,7 @@ node_modules
 .nitro
 .cache
 .output
+.env
 .env.dev
 .env.prod
 dist
