@@ -52,9 +52,3 @@ $ yarn dev
 # Build for production using SSR
 $ yarn build
 ```
-
-```bash
-# Build for production and generate static files
-$ yarn generate
-```
-
