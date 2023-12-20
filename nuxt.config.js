@@ -38,7 +38,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      yourEnv: process.env.YOUR_ENV,
+      signaling: process.env.SIGNALING,
     },
   },
 

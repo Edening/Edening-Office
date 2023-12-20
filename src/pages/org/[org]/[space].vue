@@ -582,13 +582,14 @@ const init = async () => {
     }
 }
 
+const runtimeConfig = useRuntimeConfig()
+
 onMounted(() => {
 
   connection = new RTCMultiConnection();
 
   // this line is VERY_important
-  connection.socketURL = 'https://muazkhan.com:9001/';
-  // connection.socketURL = 'http://localhost:9001/'
+  connection.socketURL = runtimeConfig.public.signaling || 'https://muazkhan.com:9001/';
 
   // all below lines are optional; however recommended.
 
