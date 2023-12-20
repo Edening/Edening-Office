@@ -1,10 +1,10 @@
 {
-  "name": "nuxtwind-daisy",
+  "name": "Edening-Office",
   "version": "1.0.0",
   "main": ".eslintrc.js",
-  "description": "Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.",
-  "productName": "Nuxtwind Daisy 🟢💨🌼",
-  "author": "Joff Tiquez <jofftiquez@gmail.com>",
+  "description": "Edening Office is a starter project for building virtual office.",
+  "productName": "Edening Office 💨",
+  "author": "Henry Ma <henryma@edening.cn>",
   "scripts": {
     "lint": "eslint --ext .js,.vue ./ --fix",
     "build": "nuxt build",
@@ -49,11 +49,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ossphilippines/nuxtwind-daisy.git"
+    "url": "git+https://github.com/Edening/Edening-Office.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ossphilippines/nuxtwind-daisy/issues"
+    "url": "https://github.com/Edening/Edening-Office/issues"
   },
-  "homepage": "https://github.com/ossphilippines/nuxtwind-daisy#readme"
+  "homepage": "https://github.com/Edening/Edening-Office"
 }
