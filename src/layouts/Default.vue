@@ -6,7 +6,13 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
-        <a href="/pricing">Pricing(Sample)</a>
+        <a href="https://github.com/Edening/Edening-Office" target="_blank">
+          <img src="/images/github-svgrepo-1.svg" style="width: 24px; height: 24px;"/>
+        </a>
+        <!-- &nbsp;
+        |
+        &nbsp;
+        <a href="/pricing">Pricing(Sample)</a> -->
       </div>
       <div class="navbar-end">
         <!-- <select v-model="theme" class="select select-primary md:w-full md:max-w-xs">
