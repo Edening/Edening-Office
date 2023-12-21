@@ -7,6 +7,8 @@ const supabase = useSupabaseClient()
 
 const user = useSupabaseUser()
 
+const runtimeConfig = useRuntimeConfig()
+
 const router = useRouter()
 
 const appearance: Appereance = {
@@ -39,9 +41,10 @@ const signIn = async (creds: any) => {
 
   loading.value = false
 
-  if(error)
+  if(error) {
+    message.value = ''
     show_error.value = error?.message
-  else if(data.user && user.value) {
+  } else if(data.user && user.value) {
     const { data, error } = await supabase
       .from('profiles')
       .select()
@@ -52,25 +55,25 @@ const signIn = async (creds: any) => {
     } else {
       navigateTo('/profile')
     }
-
-    if(error)
-      show_error.value = error?.message
   }
 }
 
 const signUp = async (creds: any) => {
   loading.value = true
 
+  creds.options = {
+      emailRedirectTo: runtimeConfig.public.signupConfirmURL || 'http://localhost:3000/confirm'
+  }
   const { data, error } = await supabase.auth.signUp(creds)
 
   loading.value = false
 
-  if(error)
+  if(error){
+    message.value = ''
     show_error.value = error?.message
-  else {
-    // navigateTo('/profile')
-    // router.push('/login')
-    signIn(creds)
+  } else {
+    show_error.value = ''
+    message.value = 'Please check your email for instruction!'
   }
 }
 
@@ -78,16 +81,18 @@ const resetPwd = async (email: any) => {
   loading.value = true
 
   const { data, error } = await supabase.auth.resetPasswordForEmail(email.email.value, {
-    redirectTo: 'http://localhost:3000/update-password',
-    // redirectTo: 'http://localhost:3000/api/auth/callback?next=/update-password',
+    redirectTo: runtimeConfig.public.updatePasswordURL || 'http://localhost:3000/update-password',
   })
 
   loading.value = false
 
-  if(error)
+  if(error) {
+    message.value = ''
     show_error.value = error?.message
-  else
+  } else {
+    show_error.value = ''
     message.value = 'Please check your email for instruction!'
+  }
 }
 
 const signInWithOtp = async (email: {[key: string]: any}) => {
@@ -118,6 +123,8 @@ const signInWithOtp = async (email: {[key: string]: any}) => {
       <span v-if="loading" class="loading loading-spinner text-info"></span>
       <div v-show="show_error != ''" class="alert alert-error">
         <pre>Error: {{ show_error }}</pre>
+      </div><div v-show="message != ''" class="alert alert-info">
+        <pre>{{ message }}</pre>
       </div>
       <!-- <Auth
         :providers="['google', 'apple']"

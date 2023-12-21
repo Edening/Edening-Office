@@ -39,6 +39,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       signaling: process.env.SIGNALING,
+      signupConfirmURL: process.env.SIGNUP_CONFIRM_URL,
+      updatePasswordURL: process.env.UPDATE_PASSWORD_URL,
     },
   },
 
